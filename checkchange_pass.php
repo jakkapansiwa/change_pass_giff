@@ -4,11 +4,21 @@ ini_set('memory_limit', '-1');
 set_time_limit(0);
 
 
-branch toom
+
 
 
 // require_once 'php/db/db.php';
 // require_once("php/db/function_db_v2.php");
+
+
+
+
+
+
+
+
+autoautoautoauto
+autoautoautoauto
 
 $username 	= strtolower($_POST['username']);
 $passold 	= trim($_POST['passold']);
