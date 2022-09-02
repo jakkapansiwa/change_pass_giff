@@ -1,34 +1,3 @@
-<?
-session_start();
-ob_start();
-?>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Untitled Document</title>
-<script language="javascript">
-function check(){
-  alert('กรุณากรอก USERNAME');
-  alert('กรุณากรอก USERNAME');
-  alert('กรุณากรอก USERNAME');
-
-
-  alert('รหัสผ่านต้องมีตัวอักษรตัวเล็ก');
-  alert('รหัสผ่านต้องมีตัวอักษรตัวเล็ก');
-  alert('รหัสผ่านต้องมีตัวอักษรตัวเล็ก');
-  alert('รหัสผ่านต้องมีตัวอักษรตัวเล็ก');
-  alert('รหัสผ่านต้องมีตัวอักษรตัวเล็ก');
-  alert('รหัสผ่านต้องมีตัวอักษรตัวเล็ก');
-
-
-console.log("aaaa")
-}
-</script>
-
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
-</style>
-
-<style type="text/css">
 
 fieldset{
     margin: auto;
