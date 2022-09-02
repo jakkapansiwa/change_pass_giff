@@ -1,6 +1,6 @@
 <?
-// session_start();
-// ob_start();
+session_start();
+ob_start();
 ?>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
