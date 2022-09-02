@@ -12,61 +12,15 @@ function check(){
   var uppercaseLetters = /[A-Z]/g;
   var numbers = /[0-9]/g;
 
-if(document.ChangePass.username.value==""){
-  alert('กรุณากรอก USERNAME');
-    document.ChangePass.username.focus();
-  return false;
-}
-if(document.ChangePass.passold.value==""){
-	alert('กรุณากรอก PASSWORD เก่า');
-    document.ChangePass.passold.focus();
-	return false;
-}
-if(document.ChangePass.passnew.value==""){
-	alert('กรุณากรอก PASSWORD ใหม่');
-    document.ChangePass.passnew.focus();
-	return false;
-} 
-if(document.ChangePass.passnew1.value==""){
-	alert('กรุณายืนยัน PASSWORD ใหม่');
-    document.ChangePass.passnew1.focus();
-	return false;
-}
-if(document.ChangePass.passnew.value != document.ChangePass.passnew1.value){
-	alert('คุณใส่ password ไม่ตรงกัน');
-	document.ChangePass.passnew1.focus();     
-	return false;
-}
-if(document.ChangePass.passold.value == document.ChangePass.passnew.value){
-	alert('รหัสผ่านเก่าและใหม่ต้องไม่เหมือนกัน กรุณาลองใหม่');
-    document.ChangePass.passold.focus();
-	return false;
-}
-
-if(!document.ChangePass.passnew.value.match(lowercaseLetters)){
   alert('รหัสผ่านต้องมีตัวอักษรตัวเล็ก');
-  document.ChangePass.passnew.focus();
-	return false;
-}
-if(!document.ChangePass.passnew.value.match(uppercaseLetters)){
-  alert('รหัสผ่านต้องมีตัวอักษรตัวใหญ่');
-  document.ChangePass.passnew.focus();
-	return false;
-}
-if(!document.ChangePass.passnew.value.match(numbers)){
-  alert('รหัสผ่านต้องมีตัวเลข');
-  document.ChangePass.passnew.focus();
-	return false;
-}
-var myinput = document.getElementById("passnew");
-if(myinput.value.length < 8){
-  alert('รหัสผ่านใหม่ต้องมากกว่าเท่ากับ 8 ตัวอักษร กรุณาลองใหม่');
-  document.ChangePass.passnew.focus();
-	return false;
-}
+  alert('รหัสผ่านต้องมีตัวอักษรตัวเล็ก');
+  alert('รหัสผ่านต้องมีตัวอักษรตัวเล็ก');
+  alert('รหัสผ่านต้องมีตัวอักษรตัวเล็ก');
+  alert('รหัสผ่านต้องมีตัวอักษรตัวเล็ก');
+  alert('รหัสผ่านต้องมีตัวอักษรตัวเล็ก');
 
-return true;
 
+console.log("aaaa")
 }
 </script>
 
