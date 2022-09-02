@@ -7,10 +7,10 @@
 <title>Untitled Document</title>
 <script language="javascript">
 function check(){
+  alert('กรุณากรอก USERNAME');
+  alert('กรุณากรอก USERNAME');
+  alert('กรุณากรอก USERNAME');
 
-  var lowercaseLetters = /[a-z]/g;
-  var uppercaseLetters = /[A-Z]/g;
-  var numbers = /[0-9]/g;
 
 if(document.ChangePass.username.value==""){
   alert('กรุณากรอก USERNAME');
